@@ -673,7 +673,7 @@ while not Keys.newPress.Start do
             gameplay_phase = 1
         elseif gameplay_phase == 1 then
             if Keys.newPress.X then
-                set_boss_blind()
+                --set_boss_blind()
             end
 
             if Keys.newPress.Y then
